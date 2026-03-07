@@ -1,6 +1,5 @@
 :root {
     --indicator-size: 10px;
-
 }
 
 /*-------------------- MOBILE --------------------*/
@@ -66,15 +65,23 @@
 
     #bug-msg {
         width: 165px;
+        gap: 6px;
     }
 
-
+    .side-img,
     .side-img img {
         display: none;
     }
 
     .about-paragraph {
         margin-left: 18px;
+        margin-right: 18px;
+
+    }
+
+    .about-paragraph p {
+        font-size: 22px;
+        font-family: 'Comic Sans MS', 'Segoe Print', 'Bradley Hand', cursive;
     }
 
     .education-item h4 {
@@ -133,9 +140,21 @@
         margin-left: -45px;
     }
 
+    .category h2{
+        font-size: 24px;
+        font-weight: 400;
+    }
+
+    .skills-list span {
+        font-size: 18px;
+        font-weight: 300;
+    };
+
+    .contact-title p,
     .projects-title p {
         margin-left: 20px;
         margin-right: 20px;
+        font-size: 18px;
     }
 
     .contact-wrapper {
@@ -208,6 +227,7 @@
     .contact-title {
         margin-left: 20px;
         text-align: left;
+        font-family: 'Comic Sans MS', 'Segoe Print', 'Bradley Hand', cursive;
     }
 
     .education-item-lists,
@@ -217,6 +237,14 @@
         width: 90%;
         margin: 15px auto;
         text-align: justify;
+    }
+
+    .projects-title p,
+    .contact-title p {
+        font-family: 'Comic Sans MS',
+            'Segoe Print',
+            'Bradley Hand',
+            cursive;
     }
 
     .projects-title,
@@ -235,8 +263,6 @@
         line-height: 1.2;
         font-weight: 700;
     }
-    
-
 }
 
 /*-------------------- Tablet (768px) --------------------*/
