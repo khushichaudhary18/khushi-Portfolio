@@ -75,12 +75,6 @@
     .about-paragraph {
         margin-left: 18px;
     }
-
-    .about-paragraph p {
-        font-size: 18px;
-        margin-left: 18px;
-    }
-
     .education-item h4 {
         line-height: 1.4;
         text-align: start;
@@ -279,3 +273,4 @@
 }
 
 /*-------------------- Large Desktop (1440px) --------------------*/
+
