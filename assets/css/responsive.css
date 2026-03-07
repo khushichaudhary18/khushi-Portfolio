@@ -81,7 +81,7 @@
 
     .about-paragraph p {
         font-size: 22px;
-        font-family: 'Comic Sans MS', 'Segoe Print', 'Bradley Hand', cursive;
+        font-family: 'Comic Sans MS', 'Segoe Print', 'Bradley Hand';
     }
 
     .education-item h4 {
@@ -301,3 +301,4 @@
 }
 
 /*-------------------- Large Desktop (1440px) --------------------*/
+
