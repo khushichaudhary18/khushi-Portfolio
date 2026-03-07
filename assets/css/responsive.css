@@ -1,0 +1,242 @@
+/*-------------------- MOBILE --------------------*/
+@media (max-width: 767px) {
+
+    .about-title,
+    .Education-title,
+    .skill-title,
+    .contact-title {
+        margin-left: 20px;
+        text-align: left;
+    }
+
+    .education-item-lists,
+    .paragraph,
+    .projects-title p,
+    .contact-title p {
+        width: 90%;
+        margin: 15px auto;
+        text-align: justify;
+    }
+
+    .about-paragraph {
+        margin-left: 18px;
+    }
+
+    .side-img {
+        float: none;
+        text-align: center;
+        margin: 20px auto;
+    }
+
+    .side-img img {
+        width: 90%;
+        height: auto;
+    }
+
+    #home {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: auto;
+        padding: 40px 0;
+    }
+
+    .main-img {
+        margin: 0;
+        padding-top: 50px;
+    }
+
+    .main-img img {
+        width: 80%;
+        height: auto;
+    }
+
+    .home-text {
+        margin: 20px;
+        padding-top: 20px;
+    }
+
+    .button-container {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+
+    button {
+        width: 80%;
+    }
+
+    .about-img,
+    .education-img {
+        display: none;
+    }
+
+    .contact-wrapper {
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+
+    .contact-details,
+    .contact-form-container {
+        width: 90%;
+        height: auto;
+    }
+
+    .contact-form {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "name"
+            "email"
+            "subject"
+            "message"
+            "button";
+    }
+
+    .projects-title,
+    .skill-title,
+    .contact-title h1 {
+        font-size: 30px;
+        font-weight: 400;
+    }
+
+
+    .projects-title p {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-about p {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .menu-container {
+        width: 100%;
+        left: -100%;
+    }
+
+    .info-text a,
+    .info-text p {
+        word-break: break-word;
+        overflow-wrap: break-word;
+    }
+
+    .info-item {
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    .info-icon i {
+        font-size: 28px;
+    }
+
+    .social-links {
+        position: static;
+        margin-top: 20px;
+        justify-content: center;
+    }
+
+    #home .github {
+        color: #8497b0;
+    }
+
+    .box {
+        display: none;
+    }
+
+    .logo-name {
+        margin-left: -120px;
+        padding-top: -120px;
+        text-align: left;
+        font-size: 28px;
+        height: auto;
+    }
+
+    .about-title h1,
+    .Education-title h1,
+    .projects-title h1,
+    .skill-title h1,
+    .contact-title h1 {
+        font-size: 40px;
+        line-height: 1.2;
+        font-weight: 700;
+    }
+
+    .logo-name a {
+        color: #8497b0;
+    }
+
+    .side-img img {
+        display: none;
+    }
+
+    .education-item h4 {
+        line-height: 1.4;
+        text-align:start;
+        font-size: 22px;
+    }
+
+    .category{
+        margin-left: -45px;
+    } 
+
+    .about-paragraph p {
+        font-size: 18px;
+        margin-left: 18px;
+    }
+
+    .footer-contact ul li a{
+        font-size: 18px;
+    }
+
+    .footer-bottom{
+       text-align: center;
+    }
+    
+
+ }
+
+/*-------------------- Tablet (768px) --------------------*/
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    .about-paragraph,
+    .education-item-lists,
+    .paragraph {
+        width: 85%;
+        margin-left: 50px;
+    }
+
+    .side-img img {
+        width: 70%;
+    }
+
+    .contact-wrapper {
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+
+    .contact-details,
+    .contact-form-container {
+        width: 80%;
+    }
+}
+
+/*-------------------- Laptop (1024px) --------------------*/
+@media (min-width: 1440px) {
+
+    .about-paragraph,
+    .education-item-list {
+        max-width: 900px;
+    }
+}
+
+/*-------------------- Large Desktop (1440px) --------------------*/
