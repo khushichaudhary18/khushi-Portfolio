@@ -51,7 +51,7 @@ contactBtn.addEventListener('click', () => {
 document.getElementById('downloadBtn').addEventListener('click', function () {
     const link = document.createElement('a');
     link.href = 'assets/resume.pdf';
-    link.download = 'Aalok Chaudhary_resume.pdf';
+    link.download = 'Khushi_Chaudhary_resume.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -205,4 +205,5 @@ form.addEventListener("submit", async (e) => {
         showMessage("Failed to send message!", "error");
     }
 });
+
 
