@@ -14,7 +14,7 @@ This is my personal portfolio website that showcases my projects, skills, and ed
 - 📞 Contact section
 
 ## 🔗 Live Website
-https://aalokchaudhary.com.np
+https://khushichaudhary.com.np
 
 ## 👤 Author
-Aalok Chaudhary
+Khushi Chaudhary
