@@ -1,36 +1,7 @@
-/* Bestermind */
-@font-face {
-    font-family: 'Bestermind';
-    src: url('../fonts/Bestermind.woff2') format('woff2'),
-        url('../fonts/Bestermind.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-/* Copperplate Gothic Bold */
-@font-face {
-    font-family: 'Copperplate Gothic Bold';
-    src: url('../fonts/CopperplateGothicBold.woff2') format('woff2'),
-        url('../fonts/CopperplateGothicBold.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
 :root {
     --indicator-size: 10px;
 
-
-        --font-logo: 'Bestermind', cursive;
-        --font-main-title: 'Roboto', sans-serif;
-        --font-heading: 'Courier New', Courier, monospace;
-        --font-subheading: 'Merriweather', serif;
-        --font-body: 'Calibri', 'Segoe UI', sans-serif;
-        --font-skill: 'Roboto', sans-serif;
-        --font-subtitle: 'Merriweather', serif;
-        --font-nav-title: 'Book Antiqua', serif;
-        --font-footer: 'Century', serif;
-        --font-creative: 'Segoe Print', cursive;
-    }
+}
 
 /*-------------------- MOBILE --------------------*/
 @media (max-width: 767px) {
