@@ -1,3 +1,6 @@
+:root {
+    --indicator-size: 10px;
+}
 /*-------------------- MOBILE --------------------*/
 @media (max-width: 767px) {
 
@@ -180,28 +183,73 @@
 
     .education-item h4 {
         line-height: 1.4;
-        text-align:start;
-        font-size: 20px;
+        text-align: start;
+        font-size: 22px;
     }
 
-    .category{
+    .category {
         margin-left: -45px;
-    } 
+    }
 
     .about-paragraph p {
         font-size: 18px;
         margin-left: 18px;
     }
 
-    .footer-contact ul li a{
+    .footer-contact ul li a {
         font-size: 18px;
     }
 
-    .footer-bottom{
-       text-align: center;
+    .footer-bottom {
+        text-align: center;
     }
 
- }
+    .present {
+        display: flex;
+        align-items: center;
+        gap: calc(var(--indicator-size)* 1.25);
+    }
+
+    .present-indicator {
+        margin-left: 5px;
+        position: relative;
+        width: var(--indicator-size);
+        height: 8px;
+        background-color: #4CAF50;
+        border-radius: 50%;
+        box-shadow: 0 0 calc(var(--indicator-size) * 0.4) #4CAF50;
+    }
+
+    .present-indicator::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: calc(var(--indicator-size) * 1.5);
+        height: calc(var(--indicator-size) * 1.5);
+        background-color: rgba(76, 175, 80, 0.5);
+        border-radius: 50%;
+        transform: translate(-50%, -50%);
+        animation: ping 1.5s infinite;
+    }
+
+    @keyframes ping {
+        0% {
+            transform: translate(-50%, -50%) scale(1);
+            opacity: 1;
+        }
+
+        100% {
+            transform: translate(-50%, -50%) scale(2.5);
+            opacity: 0;
+        }
+    }
+
+    #bug-msg{
+        width: 165px;
+    }
+
+}
 
 /*-------------------- Tablet (768px) --------------------*/
 
@@ -239,5 +287,3 @@
 }
 
 /*-------------------- Large Desktop (1440px) --------------------*/
-
-
