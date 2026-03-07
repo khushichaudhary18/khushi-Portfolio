@@ -100,10 +100,7 @@
         font-weight: 400;
     }
 
-   .about-title,
-    .about-paragraph{
-    font-family: 'Nunito', sans-serif;
-    } 
+
     .projects-title p {
         margin-left: 20px;
         margin-right: 20px;
@@ -204,6 +201,9 @@
        text-align: center;
     }
     
+    .education-item-list h4{
+        font-size: 22px;
+    }
 
  }
 
@@ -241,6 +241,5 @@
         max-width: 900px;
     }
 }
-
 
 /*-------------------- Large Desktop (1440px) --------------------*/
