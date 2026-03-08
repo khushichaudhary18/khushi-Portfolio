@@ -66,6 +66,7 @@
     #bug-msg {
         width: 165px;
         gap: 6px;
+        display: inline-flex;
     }
 
     .side-img,
@@ -152,9 +153,12 @@ font-family: "Playpen Sans";
 
     .project-card{
         width: 300px;
-        height: 420px;
+        height: 450px;
     }
 
+    .project-content p{
+        font-family: "Playpen Sans";
+    }
 
     .contact-title p,
     .projects-title p {
@@ -186,7 +190,7 @@ font-family: "Playpen Sans";
     }
 
     .section-header h2{
-        font-size: medium;
+        font-size: large;
     }
 
     .info-text a,
@@ -202,6 +206,10 @@ font-family: "Playpen Sans";
 
     .info-icon i {
         font-size: 28px;
+    }
+
+    .info-content h3 {
+        font-size: large;
     }
 
     .social-links {
@@ -220,6 +228,7 @@ font-family: "Playpen Sans";
     .footer-about p {
         width: 90%;
         margin: 10px auto;
+        font-size: 18px;
     }
 
     .footer-contact ul li a {
@@ -228,8 +237,8 @@ font-family: "Playpen Sans";
 
     .footer-bottom {
         text-align: center;
+        font-size: 18px;
     }
-
 
     .about-title,
     .Education-title,
@@ -237,7 +246,7 @@ font-family: "Playpen Sans";
     .contact-title {
         margin-left: 20px;
         text-align: left;
-        font-family: 'Comic Sans MS', 'Segoe Print', 'Bradley Hand', cursive;
+        font-family: "Playpen Sans";
     }
 
     .education-item-lists,
@@ -306,5 +315,3 @@ font-family: "Playpen Sans";
         max-width: 900px;
     }
 }
-
-/*-------------------- Large Desktop (1440px) --------------------*/
