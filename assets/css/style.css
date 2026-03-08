@@ -142,7 +142,7 @@ body {
     color: rgb(132, 151, 176);
 }
 
-bug-msg {
+#bug-msg {
     position: fixed;
     top: 20px;
     right: 20px;
@@ -1342,3 +1342,4 @@ button {
     opacity: 0;
 
 }
+
