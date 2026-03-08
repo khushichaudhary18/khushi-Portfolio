@@ -80,7 +80,7 @@
     }
 
     .about-paragraph p {
-        font-size: 22px;
+        font-size: 20px;
 font-family: "Playpen Sans";
     }
 
@@ -146,9 +146,15 @@ font-family: "Playpen Sans";
     }
 
     .skills-list span {
-        font-size: 18px;
-        font-weight: 300;
-    };
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .project-card{
+        width: 300px;
+        height: 420px;
+    }
+
 
     .contact-title p,
     .projects-title p {
@@ -177,6 +183,10 @@ font-family: "Playpen Sans";
             "subject"
             "message"
             "button";
+    }
+
+    .section-header h2{
+        font-size: medium;
     }
 
     .info-text a,
@@ -241,9 +251,7 @@ font-family: "Playpen Sans";
 
     .projects-title p,
     .contact-title p {
-        font-family: 'Comic Sans MS',
-            'Segoe Print',
-            'Bradley Hand';
+        font-family: "Playpen Sans";
     }
 
     .projects-title,
