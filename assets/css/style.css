@@ -160,7 +160,6 @@ body {
     pointer-events: none;
     transition: opacity 0.4s ease, transform 0.4s ease;
     transform: translateY(-20px);
-
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
@@ -180,7 +179,6 @@ body {
 #bug-msg p {
     margin: 0;
 }
-
 /*--------------------------------------------------------------
     # Home
 --------------------------------------------------------------*/
@@ -1342,4 +1340,5 @@ button {
     opacity: 0;
 
 }
+
 
