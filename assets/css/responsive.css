@@ -33,7 +33,7 @@
         gap: 15px;
         align-items: center;
         font-family: "Playpen Sans";
-       
+
     }
 
     button {
@@ -46,13 +46,17 @@
         left: -100%;
     }
 
-    .paragraph p {   
+    .paragraph p {
         font-family: "Playpen Sans";
         font-weight: 300;
-}
+    }
 
     #home .github {
         color: #8497b0;
+    }
+
+    .paragraph p {
+        font-size: 20px;
     }
 
     .box {
@@ -90,7 +94,7 @@
 
     .about-paragraph p {
         font-size: 19px;
-font-family: "Playpen Sans";
+        font-family: "Playpen Sans";
     }
 
     .education-item h4 {
@@ -149,7 +153,7 @@ font-family: "Playpen Sans";
         margin-left: -45px;
     }
 
-    .category h2{
+    .category h2 {
         font-size: 24px;
         font-weight: 400;
     }
@@ -159,14 +163,66 @@ font-family: "Playpen Sans";
         font-weight: 400;
     }
 
-    .skills-list{
-        margin-left: -30px;
+    .skills-list {
+        margin-left: -15px;
     }
 
-    .project-desc p{
+    .projects-list {
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+        padding: 10px 0;
+    }
+
+    .projects-track {
+        display: flex;
+        gap: 16px;
+        padding: 10px 16px;
+        animation: none;
+    }
+
+    .project-card {
+        width: 260px;
+        flex: 0 0 auto;
+        height: auto;
+        scroll-snap-align: center;
+    }
+
+    .project-image {
+        height: 150px;
+    }
+
+    .project-content {
+        padding: 15px;
+    }
+
+    .title-project {
+        font-size: 18px;
+    }
+
+    .project-lang span {
+        font-size: 14px;
+        padding: 4px 10px;
+    }
+
+    .project-desc {
+        font-size: 15px;
+        line-height: 1.4;
         font-family: "Playpen Sans";
         font-size: 16px;
     }
+
+    .project-links {
+        margin-top: 12px;
+        margin-right: 0;
+        gap: 8px;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 6px 12px;
+    }
+
 
     .contact-title p,
     .projects-title p {
@@ -232,10 +288,11 @@ font-family: "Playpen Sans";
     .footer-about p {
         width: 90%;
         margin: 10px auto;
-        font-size: 18px;
+        font-size: 16px;
     }
-   .footer-container ul li a{
-        font-size: 18px;
+
+    .footer-container ul li a {
+        font-size: 16px;
     }
 
     .footer-bottom {
