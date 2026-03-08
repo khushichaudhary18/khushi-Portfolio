@@ -32,11 +32,12 @@
         flex-direction: column;
         gap: 15px;
         align-items: center;
-        font-family: "Playpen Sans";
+       
     }
 
     button {
         width: 80%;
+        font-family: "Playpen Sans";
     }
 
     .menu-container {
@@ -44,7 +45,7 @@
         left: -100%;
     }
 
-    #home .paragraph{   
+    .paragraph{   
     font-family: "Playpen Sans";
     font-weight: 300;
 }
@@ -154,11 +155,7 @@ font-family: "Playpen Sans";
     .skills-list span {
         font-size: 20px;
         font-weight: 400;
-    }
-
-    .project-card{
-        width: 300px;
-        height: 450px;
+        margin-left: -30px;
     }
 
     .project-desc p{
@@ -262,6 +259,7 @@ font-family: "Playpen Sans";
     .projects-title p,
     .contact-title p {
         font-family: "Playpen Sans";
+        font-weight: 300;
     }
 
     .projects-title,
@@ -276,7 +274,7 @@ font-family: "Playpen Sans";
     .projects-title h1,
     .skill-title h1,
     .contact-title h1 {
-        font-size: 40x;
+        font-size: 45px;
         line-height: 1.2;
         font-weight: 700;
     }
