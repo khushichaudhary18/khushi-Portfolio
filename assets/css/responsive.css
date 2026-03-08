@@ -32,6 +32,7 @@
         flex-direction: column;
         gap: 15px;
         align-items: center;
+        font-family: "Playpen Sans";
     }
 
     button {
@@ -42,6 +43,11 @@
         width: 100%;
         left: -100%;
     }
+
+    #home .paragraph{   
+    font-family: "Playpen Sans";
+    font-weight: 300;
+}
 
     #home .github {
         color: #8497b0;
@@ -66,7 +72,6 @@
     #bug-msg {
         width: 165px;
         gap: 6px;
-        display: inline-flex;
     }
 
     .side-img,
@@ -81,7 +86,7 @@
     }
 
     .about-paragraph p {
-        font-size: 20px;
+        font-size: 19px;
 font-family: "Playpen Sans";
     }
 
@@ -156,8 +161,9 @@ font-family: "Playpen Sans";
         height: 450px;
     }
 
-    .project-content p{
+    .project-desc p{
         font-family: "Playpen Sans";
+        font-size: 18px;
     }
 
     .contact-title p,
@@ -187,10 +193,6 @@ font-family: "Playpen Sans";
             "subject"
             "message"
             "button";
-    }
-
-    .section-header h2{
-        font-size: large;
     }
 
     .info-text a,
@@ -230,8 +232,7 @@ font-family: "Playpen Sans";
         margin: 10px auto;
         font-size: 18px;
     }
-
-    .footer-contact ul li a {
+   .footer-container ul li a{
         font-size: 18px;
     }
 
@@ -275,7 +276,7 @@ font-family: "Playpen Sans";
     .projects-title h1,
     .skill-title h1,
     .contact-title h1 {
-        font-size: 45px;
+        font-size: 40x;
         line-height: 1.2;
         font-weight: 700;
     }
@@ -315,3 +316,5 @@ font-family: "Playpen Sans";
         max-width: 900px;
     }
 }
+
+/*-------------------- Large Desktop (1440px) --------------------*/
