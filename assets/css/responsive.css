@@ -164,28 +164,35 @@
     }
 
     .skills-list {
-        margin-left: -15px;
+        margin-left: -5px;
     }
 
     .projects-list {
+        margin-top: 10px;
+        padding: 15px 0;
         overflow-x: auto;
-        scroll-snap-type: x mandatory;
+        overflow-y: hidden;
         -webkit-overflow-scrolling: touch;
-        padding: 10px 0;
+    }
+
+    .projects-list::-webkit-scrollbar {
+        display: none;
     }
 
     .projects-track {
         display: flex;
-        gap: 16px;
-        padding: 10px 16px;
+        gap: 18px;
+        width: max-content;
+        padding: 0 16px;
         animation: none;
+        /* stop auto moving on mobile */
+        cursor: grab;
     }
 
     .project-card {
         width: 260px;
-        flex: 0 0 auto;
         height: auto;
-        scroll-snap-align: center;
+        flex: 0 0 auto;
     }
 
     .project-image {
@@ -209,13 +216,13 @@
         font-size: 15px;
         line-height: 1.4;
         font-family: "Playpen Sans";
-        font-size: 16px;
     }
 
     .project-links {
         margin-top: 12px;
         margin-right: 0;
         gap: 8px;
+        flex-wrap: wrap;
     }
 
     .btn {
@@ -223,10 +230,9 @@
         padding: 6px 12px;
     }
 
-
     .contact-title p,
     .projects-title p {
-        margin-left: 20px;
+        margin-left: 16px;
         margin-right: 20px;
         font-size: 18px;
     }
@@ -251,6 +257,10 @@
             "subject"
             "message"
             "button";
+    }
+
+    .section-header h2{
+        font-size: 25px;
     }
 
     .info-text a,
@@ -324,6 +334,7 @@
     .contact-title p {
         font-family: "Playpen Sans";
         font-weight: 200;
+        font-size: 18px;
     }
 
     .about-title h1,
@@ -371,5 +382,3 @@
         max-width: 900px;
     }
 }
-
-/*-------------------- Large Desktop (1440px) --------------------*/
