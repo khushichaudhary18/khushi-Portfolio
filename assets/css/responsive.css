@@ -32,6 +32,7 @@
         flex-direction: column;
         gap: 15px;
         align-items: center;
+        font-family: "Playpen Sans";
        
     }
 
@@ -45,9 +46,9 @@
         left: -100%;
     }
 
-    .paragraph{   
-    font-family: "Playpen Sans";
-    font-weight: 300;
+    .paragraph p {   
+        font-family: "Playpen Sans";
+        font-weight: 300;
 }
 
     #home .github {
@@ -72,6 +73,7 @@
 
     #bug-msg {
         width: 165px;
+        display: inline;
         gap: 6px;
     }
 
@@ -155,12 +157,15 @@ font-family: "Playpen Sans";
     .skills-list span {
         font-size: 20px;
         font-weight: 400;
+    }
+
+    .skills-list{
         margin-left: -30px;
     }
 
     .project-desc p{
         font-family: "Playpen Sans";
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .contact-title p,
@@ -256,17 +261,12 @@ font-family: "Playpen Sans";
         text-align: justify;
     }
 
+
+    .paragraph p,
     .projects-title p,
     .contact-title p {
         font-family: "Playpen Sans";
-        font-weight: 300;
-    }
-
-    .projects-title,
-    .skill-title,
-    .contact-title h1 {
-        font-size: 30px;
-        font-weight: 400;
+        font-weight: 200;
     }
 
     .about-title h1,
