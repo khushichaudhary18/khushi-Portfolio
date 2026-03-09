@@ -104,7 +104,6 @@ body {
     border: none;
     border-radius: 50%;
     display: none;
-    /* hidden initially */
     align-items: center;
     justify-content: center;
     cursor: pointer;
@@ -146,20 +145,21 @@ body {
     position: fixed;
     top: 20px;
     right: 20px;
-    width: 165px;
-    padding: 10px 12px;
+    width: 160px;
+    padding: 8px 10px;
     background-color: #5b6776;
     color: rgb(227, 231, 237);
     border-radius: 8px;
     display: flex;
     align-items: flex-start;
-    gap: 8px;
+    gap: 6px;
     font-size: 11px;
     line-height: 1.4;
     opacity: 0;
     pointer-events: none;
     transition: opacity 0.4s ease, transform 0.4s ease;
     transform: translateY(-20px);
+
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
@@ -171,13 +171,14 @@ body {
 
 #bug-msg i {
     color: #ff8400;
-    font-size: 18px;
-    margin-top: 2px;
+    font-size: 16px;
     flex-shrink: 0;
 }
 
 #bug-msg p {
     margin: 0;
+    flex: 1;
+    word-break: break-word;
 }
 /*--------------------------------------------------------------
     # Home
@@ -1340,5 +1341,6 @@ button {
     opacity: 0;
 
 }
+
 
 
