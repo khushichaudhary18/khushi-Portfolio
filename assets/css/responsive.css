@@ -103,9 +103,10 @@
         font-size: 18px;
     }
 
-    .education-item h5{
+    .education-item h5 {
         font-size: 18px;
     }
+
     .present {
         display: flex;
         align-items: center;
@@ -164,28 +165,18 @@
     .projects-list {
         margin-top: 10px;
         padding: 15px 0;
-        overflow-x: auto;
-        overflow-y: hidden;
-        -webkit-overflow-scrolling: touch;
-    }
-
-    .projects-list::-webkit-scrollbar {
-        display: none;
+        overflow: hidden;
     }
 
     .projects-track {
-        display: flex;
-        gap: 18px;
-        width: max-content;
-        padding: 0 16px;
-        animation: none;
-        cursor: grab;
+        gap: 25px;
+        animation: scroll 20s linear infinite;
+        /* keep carousel moving */
     }
 
     .project-card {
         width: 260px;
-        height: auto;
-        flex: 0 0 auto;
+        height: 420px;
     }
 
     .project-image {
@@ -202,7 +193,7 @@
 
     .project-lang span {
         font-size: 14px;
-        padding: 4px 10px;
+        padding: 4px 8px;
     }
 
     .project-desc {
@@ -215,7 +206,6 @@
         margin-top: 12px;
         margin-right: 0;
         gap: 8px;
-        flex-wrap: wrap;
     }
 
     .btn {
@@ -252,11 +242,11 @@
             "button";
     }
 
-    .section-header h2{
+    .section-header h2 {
         font-size: 28px;
     }
 
-    .section-header p{
+    .section-header p {
         font-size: 16px;
     }
 
@@ -332,7 +322,7 @@
         font-weight: 200;
         font-size: 18px;
     }
-    
+
     .about-title h1,
     .Education-title h1,
     .projects-title h1,
@@ -380,4 +370,3 @@
 }
 
 /*-------------------- Large Desktop (1440px) --------------------*/
-
