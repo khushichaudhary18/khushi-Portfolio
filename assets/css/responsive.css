@@ -317,10 +317,11 @@
     }
 
     .education-item-lists,
-    .paragraph{
+    .paragraph {
         width: 90%;
         margin: 15px auto;
         text-align: justify;
+        margin: 14px auto;
     }
 
 
@@ -330,9 +331,8 @@
         font-family: "Playpen Sans";
         font-weight: 200;
         font-size: 18px;
-        margin: 12px auto;
     }
-
+    
     .about-title h1,
     .Education-title h1,
     .projects-title h1,
@@ -380,3 +380,4 @@
 }
 
 /*-------------------- Large Desktop (1440px) --------------------*/
+
