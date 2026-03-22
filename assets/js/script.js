@@ -21,7 +21,7 @@ document.querySelectorAll('a[href^="#"]').forEach(link => {
 
 toggleBtn.addEventListener('click', () => {
     bugMsg.classList.add('show');
-    setTimeout(() => bugMsg.classList.remove('show'), 1800
+    setTimeout(() => bugMsg.classList.remove('show'), 3000
     );
 });
 
